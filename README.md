@@ -50,7 +50,6 @@ Front-end Application:
 - Javascript 
 - ReactJs
 - CSS
-`sh
 
 Back-end Application:
 - Python 
