@@ -25,7 +25,7 @@ Front-end Application:
 - Javascript 
 - ReactJs
 - CSS
-```sh
+`sh
 
 Back-end Application:
 - Python 
