@@ -3,22 +3,42 @@
 
 # Project Structure
 ## Main
-This is the entro point to 
-___
+This is the entry point for our project.
+
 ## Services
-___
-**Evaluation**
-It take the query and it's result to compare it with the true result in the dataset (we get the true result from ir_datasets library), And calculate some metrics that gives an evaluation for the ir_system like:
-- precision@k
-- recall
-- map
-- mrr
+which contains:
+
+**Preproccessing**
+This is where we use our text proccessing functions. 
+For the Arabic data set we have : 
+- non arabic words removal
+- arabic numbers removal
+- punctuation removal
+- stopwords removal
+- Msa atbrokenizer(which splits the arabic words from the extra letters)
+- text normalizing(normalize_alef maksura,normalize_teh_marbutah,normalize_alef,normalize_dediac)
+- text stemming.
+
+For the English data set we hava : 
+- punctuation removal
+- text normalizing
+- stop words removal
+- text lemmatization.
+
+  We used camel-tools tokenizer for the arabic data set, and NLTK tokenizer for the english data set. ```sh
 ___
 **Index**
+Here we are building our indexes which is process that identifies and retrieves information system resources relevant to an information need, which can be specified in the form of a search query and also we are building our tfidfVectorizer.
 ___
-**matching**
+**Matching**
+Here we are fetching  the results for a specifc query and it is where we also calculate the cosine similarity value.
 ___
-**Text processing** 
+**Evaluation**
+Here we ara calculating the evaluation measures such as:
+- MAP(mean average precision)
+- Recal
+- MRR(mean reciprocal rank)
+- Precision@k
 ___
 # Languages, Frameworks & Libraries
 Front-end Application:
@@ -39,4 +59,3 @@ Back-end Application:
 - Zayden Alakel
 - Alaa Al Yakoub
 - Ahmad Sheikh Alshabab
-  
