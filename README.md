@@ -9,6 +9,7 @@ This is the entry point for our project.
 which contains:
 
 **Preproccessing**
+
 This is where we use our text proccessing functions. 
 For the Arabic data set we have : 
 - non arabic words removal
@@ -28,12 +29,15 @@ For the English data set we hava :
   `We used camel-tools tokenizer for the arabic data set, and NLTK tokenizer for the english data set.`
 ___
 **Index**
+
 Here we are building our indexes which is process that identifies and retrieves information system resources relevant to an information need, which can be specified in the form of a search query and also we are building our tfidfVectorizer.
 ___
 **Matching**
+
 Here we are fetching  the results for a specifc query and it is where we also calculate the cosine similarity value.
 ___
 **Evaluation**
+
 Here we ara calculating the evaluation measures such as:
 - MAP(mean average precision)
 - Recal
