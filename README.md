@@ -11,7 +11,8 @@ which contains:
 **Preproccessing**
 
 This is where we use our text proccessing functions. 
-For the Arabic data set we have : 
+
+`For the Arabic data set we have:` 
 - non arabic words removal
 - arabic numbers removal
 - punctuation removal
@@ -20,7 +21,7 @@ For the Arabic data set we have :
 - text normalizing(normalize_alef maksura,normalize_teh_marbutah,normalize_alef,normalize_dediac)
 - text stemming.
 
-For the English data set we hava : 
+`For the English data set we hava:` 
 - punctuation removal
 - text normalizing
 - stop words removal
