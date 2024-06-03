@@ -25,7 +25,7 @@ For the English data set we hava :
 - stop words removal
 - text lemmatization.
 
-  We used camel-tools tokenizer for the arabic data set, and NLTK tokenizer for the english data set. ```sh
+  `We used camel-tools tokenizer for the arabic data set, and NLTK tokenizer for the english data set.`
 ___
 **Index**
 Here we are building our indexes which is process that identifies and retrieves information system resources relevant to an information need, which can be specified in the form of a search query and also we are building our tfidfVectorizer.
