@@ -26,6 +26,8 @@ This is where we use our text proccessing functions.
 - text normalizing
 - stop words removal
 - text lemmatization.
+- Urls removal
+- Numbers removal
 
   `We used camel-tools tokenizer for the arabic data set, and NLTK tokenizer for the english data set.`
 ___
